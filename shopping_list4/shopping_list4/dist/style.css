@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #001f3f; /* Dark navy blue color */
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #001f3f; /* Dark navy blue color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Add space between button and text area */
+}
+
+button:hover {
+  background-color: #003366; /* Darker shade of navy blue on hover */
+}
